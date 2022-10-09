@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantik Elemen - HTML 5</title>
+</head>
+<body>
+    <header style="background-color:blue;">
+        <h2>Header Halaman</h2>
+    </header>
+    <nav style="background-color:#ffc;">
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 2</li>
+        </ul>
+     </nav>
+     <article style="background-color:#ffc;">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In impedit mollitia delectus blanditiis, illum esse voluptate facilis neque magnam ex rerum modi, nisi, natus sit tenetur ratione aspernatur tempora voluptates. </p>
+    </article>
+    <footer style="background-color:rgb(138, 202, 198);">Copyright &copy; pbw2022</footer>
+</body>
+</html>
