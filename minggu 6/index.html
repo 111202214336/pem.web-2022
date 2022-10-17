@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-
+scale=1.0"> 
+    <style>
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+
+	/* Style the header */
+	header {
+	  background-color: black;
+	  padding: 20px;
+	  text-align: center;
+	  font-size: 25px;
+	  color: white;
+	}
+
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 25%;
+	  background: white;
+	  padding: 20px;
+	}
+
+	/* Style the list inside the menu */
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 75%;
+	  background-color: whitesmoke;
+	}
+
+	/* Clear floats after the columns */
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Style the footer */
+	footer {
+	  background-color: #777;
+	  padding: 10px;
+	  text-align: center;
+	  color: black;
+	}
+
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
+    <title>Contoh Project Pemrograman Website</title> 
+</head> 
+ 
+<body> 
+    <nav> 
+        <a href="index.html">Home</a> | 
+        <a href="cv-name.pdf">Download CV</a> | 
+        <a href="kontak.html">Contact</a> | 
+        <a href="tentang.html">About me</a> 
+    </nav> 
+ 
+    <hr /> 
+ 
+    <header style="text-align: center;"> 
+    <img src="DSC_0804 copy-1.jpg" width="200" height="200" 
+style="border-radius: 50%;"/> 
+        <h1>Almira Zuhrotus Safira  </h1> 
+        <p>Mahasiswa</p> 
+    </header> 
+ 
+    <hr /> 
+ 
+    <article style="text-align: center;"> 
+        <h2>Inilah aku</h2> 
+        <p> 
+            Hi, Saya adalah Almira, saya adalah seorang mahasiswa UDINUS.  
+        </p> 
+    </article> 
+ 
+    <div style="max-width: 600px; margin: 3em auto"> 
+        <table border="1" width="100%"> 
+            <thead> 
+                <tr> 
+                    <th>Skill</th> 
+                    <th>Pengalaman</th> 
+                </tr> 
+            </thead> 
+            <tbody> 
+                <tr> 
+                    <td> 
+                        <ul> 
+                            <li>Membuat sebuah program</li> 
+                            <li>Mood gampang berubah</li> 
+                            <li>Bisa kuliah di UDINUS</li> 
+                        </ul> 
+                    </td> 
+                    <td> 
+                        <ul> 
+                            <li>Gagal seleksi SNMPTN</li> 
+                            <li>Gagal seleksi poltekkes</li> 
+                            <li>Lolos dan di terima di UDINUS</li> 
+                        </ul> 
+                    </td> 
+                </tr> 
+            </tbody> 
+        </table> 
+    </div> 
+ 
+    <hr> 
+    <footer style="text-align: center;"> 
+        <p>Copyright &copy; 2020 almiraazs.</p> 
+    </footer> 
+</body> 
+</html> 
